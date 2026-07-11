@@ -8,6 +8,9 @@ class BlogappApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
+		console
+		console
 		console
 	
 	}
