@@ -11,6 +11,7 @@ class BlogappApplicationTests {
 		
 		console
 		console
+		console
 	
 	}
 
