@@ -13,11 +13,12 @@ import java.util.List;
 @RequestMapping("/api/")
 public class CommentController {
 
+    @Autowired
     private CommentService commentService;
 
-    public CommentController(CommentService commentService) {
-        this.commentService = commentService;
-    }
+    // public CommentController(CommentService commentService) {
+    //     this.commentService = commentService;
+    // }
 
     @PostMapping("posts/{postId}/comments")
     public ResponseEntity<CommentDto> createComment(@PathVariable("postId") long postId, @RequestBody CommentDto commentDto) {
